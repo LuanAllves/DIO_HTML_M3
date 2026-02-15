@@ -6,20 +6,24 @@ body, html {
 }
 
 .header {
-    background-image: linear-gradient(to bottom right, #000, #616060);
+    background-image: linear-gradient(to bottom right, #a6c1ea, #f2b7af);
 }
 
 ul { 
-    list-style: none; padding-left: 5px; 
+    list-style: none; 
+    padding-left: 5px; 
 }
 
 a { 
-    color:blue; text-decoration: none;
+    color:blue; 
+    text-decoration: none;
 }
 
-p {
-    text-align: justify;
+a:hover {
+    color: red;
+    text-decoration: underline;
 }
+
 
 dt {
     margin: .5rem 0;
@@ -63,8 +67,7 @@ dd {
     justify-content: space-evenly;
     align-items: center;
 
-    background-image: linear-gradient(to bottom right, #000, #616060);
-    color: white;
+    background-image: linear-gradient(to bottom right,  #a6c1ea, #f2b7af);
 }
 
 .footer-span {
@@ -174,4 +177,148 @@ th, td {
 
 dd {
     margin-right: 4em;
+}
+
+
+.mw-parser-output .infobox-subbox {
+    padding: 0;
+    border: none;
+    margin: -3px;
+    width: auto;
+    min-width: 100%;
+    font-size: 100%;
+    clear: none;
+    float: none;
+    background-color: transparent
+}
+
+.mw-parser-output .infobox-3cols-child {
+    margin: auto
+}
+
+.mw-parser-output .infobox .navbar {
+    font-size: 100%
+}
+
+.mw-parser-output .infobox {
+    border: 1px solid #a2a9b1;
+    border-spacing: 3px;
+    background-color: #f8f9fa;
+    color: black;
+    margin: 0.5em 0 0.5em 1em;
+    float: right;
+    clear: right;
+    font-size: 88%;
+    line-height: 1.5em;
+    width: 22em
+}
+
+.mw-parser-output .infobox-header,
+.mw-parser-output .infobox-label,
+.mw-parser-output .infobox-above,
+.mw-parser-output .infobox-full-data,
+.mw-parser-output .infobox-data,
+.mw-parser-output .infobox-below,
+.mw-parser-output .infobox-subheader,
+.mw-parser-output .infobox-image,
+.mw-parser-output .infobox-navbar,
+.mw-parser-output .infobox th,
+.mw-parser-output .infobox td {
+    vertical-align: top
+}
+
+.mw-parser-output .infobox-label,
+.mw-parser-output .infobox-data,
+.mw-parser-output .infobox th,
+.mw-parser-output .infobox td {
+    text-align: left
+}
+
+.mw-parser-output .infobox .infobox-above,
+.mw-parser-output .infobox .infobox-title,
+.mw-parser-output .infobox caption {
+    font-size: 125%;
+    font-weight: bold;
+    text-align: center
+}
+
+.mw-parser-output .infobox-title,
+.mw-parser-output .infobox caption {
+    padding: 0.2em
+}
+
+.mw-parser-output .infobox .infobox-header,
+.mw-parser-output .infobox .infobox-subheader,
+.mw-parser-output .infobox .infobox-image,
+.mw-parser-output .infobox .infobox-full-data,
+.mw-parser-output .infobox .infobox-below {
+    text-align: center
+}
+
+.mw-parser-output .infobox .infobox-navbar {
+    text-align: right
+}
+
+body.skin-minerva .mw-parser-output .infobox-header,
+body.skin-minerva .mw-parser-output .infobox-subheader,
+body.skin-minerva .mw-parser-output .infobox-above,
+body.skin-minerva .mw-parser-output .infobox-title,
+body.skin-minerva .mw-parser-output .infobox-image,
+body.skin-minerva .mw-parser-output .infobox-full-data,
+body.skin-minerva .mw-parser-output .infobox-below {
+    text-align: center
+}
+
+@media screen {
+    html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style] {
+        background: #1f1f23 !important;
+        color: #f8f9fa
+    }
+}
+
+@media screen and (prefers-color-scheme:dark) {
+    html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style] {
+        background: #1f1f23 !important;
+        color: #f8f9fa
+    }
+}
+
+@media(min-width:640px) {
+    body.skin--responsive .mw-parser-output .infobox-table {
+        display: table !important
+    }
+
+    body.skin--responsive .mw-parser-output .infobox-table>caption {
+        display: table-caption !important
+    }
+
+    body.skin--responsive .mw-parser-output .infobox-table>tbody {
+        display: table-row-group
+    }
+
+    body.skin--responsive .mw-parser-output .infobox-table th,
+    body.skin--responsive .mw-parser-output .infobox-table td {
+        padding-left: inherit;
+        padding-right: inherit
+    }
+}
+.mw-parser-output .ib-topo-animanga {
+    background: #CCF url("//upload.wikimedia.org/wikipedia/commons/6/63/Picto_infobox_anime_and_manga.png")no-repeat top right;
+    font-size: 125%;
+    font-style: italic;
+    font-weight: bold;
+    height: 45px
+}
+
+.mw-parser-output .plainlist ol,
+.mw-parser-output .plainlist ul {
+    line-height: inherit;
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.mw-parser-output .plainlist ol li,
+.mw-parser-output .plainlist ul li {
+    margin-bottom: 0
 }
